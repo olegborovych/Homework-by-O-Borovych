@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 1500px;
+    height: 956px;
+    background-image: url("../img/1.png");
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    top: 101px;
+}
+
+.header h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.28;
+    letter-spacing: normal;
+    text-align: center;
+    color: #262626;
+}
+
+.header p {
+    width: 380px;
+    height: 41px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: center;
+    color: #262626;
+    margin: 0 auto;
+    margin-top: 68px;
+}
+
+.forma {
+    margin-left: 165px;
+    margin-top: 135px;
+}
+
+
+.input1 {
+    width: 500px;
+    height: 50px;
+    background-color: #00c4c4;
+    border: 1px solid #00c4c4;
+    display:grid;
+    margin-top: 15px;
+    opacity: 0.5;
+}
+
+.input1 { 
+    -moz-appearance: textfield;
+}
+
+.input1::-webkit-inner-spin-button { 
+    display: none;
+}
+
+
+input::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+.input2 {
+    width: 500px;
+    height: 250px;
+    background-color: #00c4c4;
+    margin-top: 15px;
+    border: 1px solid #00c4c4;
+    padding-bottom: 200px;
+    opacity: 0.5;
+}
+
+.input2::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+input:hover {
+    opacity: 1;
+}
+
+.info {
+    width: 317px;
+    height: 160px;
+    margin-left: 835px;
+    bottom: 450px;
+    position: relative;
+}
+
+
+.text1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+}
+
+.text2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+}
+
+.footer {
+    width: 1500px;
+    height: 90px;
+    background-color: #262626;
+    bottom: 12px;
+    position: relative;
+}
+
+.f1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #b9b9b9;
+    text-align: left;
+    position: relative;
+    top: 35px;
+    left: 164px;
+}
+
+.f2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #b9b9b9;
+    position: relative;
+    top: 10px;
+}
+
+.f3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: right;
+    color: #b9b9b9;
+    position: relative;
+    bottom: 15px;
+    right: 164px;
+}
+
+.f3 span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #ff2b58;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+
+.butt {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    width: 200px;
+    height: 80px;
+    color: white;
+    background-color: #00c4c4;
+    position: relative;
+    left: 160px;
+    top: 185px;
+    border: 1px solid #00c4c4;
+    font-weight: bold;
+}
+

@@ -1,1 +1,1 @@
-# Homework-by-O-Borovych
+# HomeWork_O.Borovych

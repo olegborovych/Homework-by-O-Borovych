@@ -1,0 +1,46 @@
+main {
+    width: 1170px;
+    height: 420px;
+    font-size: 15px;
+    background: linear-gradient(to right,#29242B 70px, #121116 30px);
+    background-size: 8.333%;
+    border: 1px solid white;
+}
+
+.logo {
+    margin: 120px 540px 0px 480px;
+    text-align: center;
+}
+
+.text1 {
+text-align: center;
+margin: 51px 50px 0px 0px;
+}
+
+.space {
+    border-bottom: 1px solid white;
+    width: 230px;
+    margin: 21px 0px 0px 445px ;
+}
+
+.social {
+    text-align: center;
+    margin: 0px 90px 0px 0px;
+}
+
+.social li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 15px;
+}
+
+.copyright {
+    color: white;
+    margin: 70px 0px 0px 450px;
+    font-size: 15px;
+}
+
+.copyright span {
+    font-size: 15px;
+    color: #1ABFEF;
+}

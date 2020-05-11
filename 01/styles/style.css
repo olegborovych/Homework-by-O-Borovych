@@ -1,0 +1,235 @@
+body {
+    height: 976px;
+    width: 1280px;
+    font-family: Montserrat;
+}
+
+.textup {
+    text-align: center;
+    padding-top: 143px;
+    width: 1280px;
+}
+
+.textup p:first-child {
+    color: #898f99;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 4.8px;
+}
+
+.textup h1 {
+    color: #0ec8cb;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+}
+
+.textup p:last-child {
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.info1 {
+    width: 236px;
+    height: 420px;
+    border: 1px solid #ececec;
+    background-color: #f7f7f7;
+}
+
+div {
+     float: left;
+}
+
+.info1 {
+    margin: 108px 168px;
+    width: 236px;
+    height: 420px;
+    border: 1px solid #ececec;
+    background-color: #f7f7f7;
+}
+
+.info1 svg {
+    margin: 55px 86px;
+}
+
+.info1 h3 {
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.info1 p {
+    text-align: center;
+    color: #777777;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.info2 {
+    margin: 108px -168px;
+    width: 236px;
+    height: 420px;
+    border: 1px solid #ececec;
+    background-color: #f7f7f7;
+}
+
+.info2 svg {
+    margin: 55px 86px;
+}
+
+.info2 h3 {
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.info2 p {
+    text-align: center;
+    color: #777777;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.info3 {
+    margin: 108px 70px;
+    width: 236px;
+    height: 420px;
+    border: 1px solid #ececec;
+    background-color: #f7f7f7;
+}
+
+.info3 svg {
+    margin: 55px 86px;
+}
+
+.info3 h3 {
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.info3 p {
+    text-align: center;
+    color: #777777;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.info4 {
+    margin: 108px -70px;
+    width: 236px;
+    height: 420px;
+    border: 1px solid #ececec;
+    background-color: #f7f7f7;
+}
+
+.info4 svg {
+    margin: 55px 86px;
+}
+
+.info4 h3 {
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.info4 p {
+    text-align: center;
+    color: #777777;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.info2 svg path {
+    fill: black;
+  }
+
+
+.info1:hover {
+    background-color: #0ec8cb;
+}
+
+.info1:hover p {
+    color: white;
+}
+
+.info1:hover h3 {
+    color: white;
+}
+
+.info1:hover svg path {
+    fill: white;
+}
+
+.info2:hover {
+    background-color: #0ec8cb;
+}
+
+.info2:hover p {
+    color: white;
+}
+
+.info2:hover h3 {
+    color: white;
+}
+
+.info2:hover svg path {
+    fill: white;
+}
+
+.info3:hover {
+    background-color: #0ec8cb;
+}
+
+.info3:hover p {
+    color: white;
+}
+
+.info3:hover h3 {
+    color: white;
+}
+
+.info3:hover svg path {
+    fill: white;
+}
+
+.info4:hover {
+    background-color: #0ec8cb;
+}
+
+.info4:hover p {
+    color: white;
+}
+
+.info4:hover h3 {
+    color: white;
+}
+
+.info4:hover svg path {
+    fill: white;
+}
+

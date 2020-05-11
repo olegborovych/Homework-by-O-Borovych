@@ -1,0 +1,46 @@
+.logo {
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color:#A62A2A ;
+    width: 780px;
+}
+
+main{
+    width: 780px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.blue {
+    color: blue
+}
+
+.font {
+    font-weight: 600;
+}
+
+.curs {
+    font-style: italic;
+}
+
+div {
+    text-align: center;
+}
+
+.photo {
+    border: 3px black;
+    border-style: dashed;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 780px;
+}

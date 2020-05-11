@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.maincontent {
+    width: 1600px;
+    height: 789px;
+    background-color: #b07cf7;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    width: 190px;
+    height: 86px;
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-left: 655px;
+    position: relative;
+    top: 100px;
+}
+
+.zagol {
+    text-align: center;
+    width: 600px;
+    height: 66px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    position: relative;
+    margin-left: 469px;
+    top: 116px;
+}
+
+.boxing {
+    display: flex;
+}
+
+.box1 {
+    width: 370px;
+    height: 310px;
+    margin-left: 165px;
+    margin-top: 170px;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(209, 191, 191, 0.1) 61%, #000000),url("./img/1.png");;
+}
+
+
+.datatim {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(36, 32, 32, 0.5);
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.datatim1 {
+    color: white;
+    line-height: 25px;
+    font-size: 24px;
+    text-align: center;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.infobox {
+    width: 307px;
+    height: 78px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    position: relative;
+    left: 20px;
+    top: 140px;
+}
+
+.infobox1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 130px;
+}
+
+
+
+.box2 {
+    width: 370px;
+    height: 310px;
+    margin-left: 30px;
+    margin-top: 170px;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(209, 191, 191, 0.1) 61%, #000000),url("./img/2.png");;
+}
+
+
+.datatim02 {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(36, 32, 32, 0.5);
+    opacity: 1;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-weight: 600;
+}
+
+.datatim2 {
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.infobox02 {
+    width: 307px;
+    height: 78px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    position: relative;
+    left: 20px;
+    top: 140px;
+}
+
+.infobox2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 130px;
+}
+
+
+.box3 {
+    width: 370px;
+    height: 310px;
+    margin-left: 30px;
+    margin-top: 170px;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(209, 191, 191, 0.1) 61%, #000000),url("./img/3.png");;
+}
+
+
+.datatim03 {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(36, 32, 32, 0.5);
+    opacity: 1;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-weight: 600;
+
+}
+
+.datatim3 {
+    color: #ffffff;
+    line-height: 25px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.infobox03 {
+    width: 307px;
+    height: 78px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    position: relative;
+    left: 20px;
+    top: 140px;
+}
+
+.infobox3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 130px;
+}
+
+.butt {
+    width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid #f72b3b;
+    background-color: #f72b3b;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    text-transform: uppercase;
+    position: relative;
+    left: 693px;
+    top: 50px;
+}
+
+.box1:hover {
+    -webkit-transform: scale(1.1);
+    background: linear-gradient(to bottom, rgba(209, 191, 191, 0.4) 61%, #000000),url("./img/1.png");
+}
+
+.box2:hover {
+    -webkit-transform: scale(1.1);
+    background: linear-gradient(to bottom, rgba(209, 191, 191, 0.4) 61%, #000000),url("./img/2.png");
+}
+
+.box3:hover {
+    -webkit-transform: scale(1.1);
+    background: linear-gradient(to bottom, rgba(209, 191, 191, 0.4) 61%, #000000),url("./img/3.png");
+}
+
+.butt:hover {
+    -webkit-transform: scale(1.1);
+}

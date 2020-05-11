@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 1600px;
+    height: 750x;
+    background-color: #f6f6f6;
+}
+
+h1 {
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 5.44px;
+    text-align: center;
+    color: #3c3c3c;
+    position: relative;
+    top: 108px;
+}
+
+.ruska {
+    width: 45px;
+    height: 4px;
+    background-color: #dddbdb;
+    position: relative;
+    left: 780px;
+    top: 154px;
+}
+
+.texttop {
+    width: 580px;
+    height: 39px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+    top: 198px;
+    left: 520px;
+    position: relative;
+}
+
+.boxs {
+    display: flex;
+    position: relative;
+}
+
+
+.box1 {
+    width: 269px;
+    height: 268px;
+    margin-left: 215px;
+    margin-top: 260px;
+    position:relative;
+}
+
+.box11 {
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background-color: #00aed9;;
+    padding:5px;
+    display:none;
+}
+
+.box11 img {
+    margin-top: 111px;
+    left: 66px;
+    position: relative;
+}
+
+.box1:hover .box11{
+    display:block;
+}
+
+.box2 {
+    width: 269px;
+    height: 268px;
+    margin-top: 260px;
+    margin-left: 31px;
+    position:relative;
+}
+
+
+.box3 {
+    width: 269px;
+    height: 268px;
+    margin-top: 260px;
+    margin-left: 31px;
+    position:relative;
+}
+
+.box4 {
+    width: 269px;
+    height: 268px;
+    margin-top: 260px;
+    margin-left: 31px;
+    position:relative;
+}
+
+.name1 p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #282528;
+    position: relative;
+    left: 215px;
+    top: 21px;
+    font-family: Lato;
+}
+
+.name1 span {
+    width: 113px;
+  height: 35px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #646464;
+}
+
+.name2 p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #282528;
+    position: relative;
+    left: 515px;
+    bottom: 25px;
+    font-family: Lato;
+}
+
+.name2 span {
+    width: 113px;
+  height: 35px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #646464;
+}
+
+.name3 p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #282528;
+    position: relative;
+    left: 815px;
+    bottom: 70px;
+    font-family: Lato;
+}
+
+.name3 span {
+    width: 113px;
+  height: 35px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #646464;
+}
+
+.name4 p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #282528;
+    position: relative;
+    left: 1115px;
+    bottom: 115px;
+    font-family: Lato;
+}
+
+.name4 span {
+    width: 113px;
+  height: 35px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #646464;
+}
+
+
+.box12 {
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background-color: #00aed9;;
+    padding:5px;
+    display:none;
+}
+
+.box12 img {
+    margin-top: 111px;
+    left: 66px;
+    position: relative;
+}
+
+.box2:hover .box12{
+    display:block;
+}
+
+.box13 {
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background-color: #00aed9;;
+    padding:5px;
+    display:none;
+}
+
+.box13 img {
+    margin-top: 111px;
+    left: 66px;
+    position: relative;
+}
+
+.box3:hover .box13{
+    display:block;
+}
+
+.box14 {
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background-color: #00aed9;;
+    padding:5px;
+    display:none;
+}
+
+.box14 img {
+    margin-top: 111px;
+    left: 66px;
+    position: relative;
+}
+
+.box4:hover .box14{
+    display:block;
+}

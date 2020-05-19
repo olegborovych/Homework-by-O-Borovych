@@ -12,7 +12,7 @@ body {
 header {
     width: 1920px;
     height: 1072px;
-    background-image: url(/h12/02/img/head.png);
+    background-image: url(../img/head.png);
 }
 
 .head {
@@ -124,7 +124,7 @@ main {
 .box3 {
     width: 1920px;
     height: 488px;
-    background-image: url("/h12/02/img/main3.png");
+    background-image: url("../img/main3.png");
 }
 
 .box4 {
@@ -196,7 +196,7 @@ main {
 }
 
 .bx1 {
-    background-image: url(/h12/02/img/5-1.png);
+    background-image: url(../img/5-1.png);
     width: 548px;
     height: 237px;
     margin-top: 10px;
@@ -205,7 +205,7 @@ main {
 .bx2 {
     width: 802px;
     height: 237px;
-    background-image: url(/h12/02/img/5-2.png);
+    background-image: url(../img/5-2.png);
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -213,7 +213,7 @@ main {
 .bx3 {
     width: 550px;
     height: 237px;
-    background-image: url(/h12/02/img/5-3.png);
+    background-image: url(../img/5-3.png);
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -225,14 +225,14 @@ main {
 .bx4 {
     width: 548px;
     height: 237px;
-    background-image: url(/h12/02/img/5-4.png);
+    background-image: url(../img/5-4.png);
     margin-top: 10px;
 }
 
 .bx5 {
     width: 802px;
     height: 237px;
-    background-image: url(/h12/02/img/5-5.png);
+    background-image: url(../img/5-5.png);
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -240,7 +240,7 @@ main {
 .bx6 {
     width: 550px;
     height: 237px;
-    background-image: url(/h12/02/img/5-6.png);
+    background-image: url(../img/5-6.png);
     margin-left: 10px;
     margin-top: 10px;
 }

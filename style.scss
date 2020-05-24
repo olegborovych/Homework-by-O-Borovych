@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 * {
   box-sizing: border-box;
   margin: 0;
@@ -910,4 +911,151 @@ input:hover {
   top: 185px;
   border: 1px solid #00c4c4;
   font-weight: bold;
+=======
+@font-face {
+  font-family: "Museo Sans Rounded";
+  src: local("Museo Sans Rounded 100"), local("Museo-Sans-Rounded-100"),
+    url("/assets/fonts/MuseoSansRounded-100/MuseoSansRounded-100.woff2")
+      format("woff2"),
+    url("/assets/fonts/MuseoSansRounded-100/MuseoSansRounded-100.woff")
+      format("woff"),
+    url("/assets/fonts/MuseoSansRounded-100/MuseoSansRounded-100.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Museo Sans Rounded";
+}
+
+.wrapper {
+  width: 100%;
+  margin-top: 12.5%;
+}
+
+.nike {
+  margin: 0 auto;
+  width: 44%;
+  height: 391px;
+  box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+  border-radius: 10px;
+  background-color: #111a28;
+}
+
+.snikers {
+  width: 60%;
+  float: left;
+
+  &__logo {
+    padding-left: 21px;
+    padding-top: 24px;
+  }
+
+  &__sales {
+    padding-top: 69px;
+    padding-left: 36px;
+  }
+}
+
+.description {
+  width: 40%;
+  float: right;
+
+  &__tittle {
+    padding-top: 78px;
+  }
+
+  &__tittle--white-txt {
+    width: 160px;
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+  }
+
+  &__subtittle {
+    padding-top: 8px;
+  }
+
+  &__subtittle--opacity-txt {
+    opacity: 0.54;
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.28px;
+  }
+
+  &__rating {
+    padding-top: 16px;
+  }
+
+  &__form {
+    padding-top: 16px;
+  }
+}
+
+.form {
+  &__size {
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.28px;
+    cursor: pointer;
+  }
+
+  &__qty {
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.28px;
+    cursor: pointer;
+  }
+
+  &__btn {
+    margin-top: 24px;
+    width: 184px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: #4c525a;
+    opacity: 0.26;
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded";
+    cursor: pointer;
+  }
+
+  &__btn--white {
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded";
+  }
+}
+
+.select {
+  width: 69px;
+  height: 32px;
+  border: 1px solid #ffffff;
+  background-color: #111a28;
+  opacity: 0.26;
+  color: #e1e1e1;
+  font-family: "Museo Sans Rounded";
+}
+
+.checked {
+  color: orange;
+>>>>>>> Stashed changes
 }

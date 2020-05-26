@@ -172,6 +172,10 @@ body {
   &__item a {
     color: #262626;
   }
+
+  &__item:hover {
+    border-top: 3px solid #ff6033;
+  }
 }
 
 .about {

@@ -176,6 +176,9 @@ body {
 .nav__item a {
   color: #262626;
 }
+.nav__item:hover {
+  border-top: 3px solid #ff6033;
+}
 
 .about {
   width: 100%;

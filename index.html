@@ -3,254 +3,261 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://i.icomoon.io/public/temp/9acbf5593/UntitledProject/style.css"
-    />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Cahee</title>
   </head>
   <body>
     <header class="header">
-      <div class="header__logo"><p>Cahee</p></div>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#">home</a></li>
-          <li class="nav__item"><a href="#">about</a></li>
-          <li class="nav__item"><a href="#">services</a></li>
-          <li class="nav__item"><a href="#">gallery</a></li>
-          <li class="nav__item"><a href="#">blog</a></li>
-          <li class="nav__item"><a href="#">contact</a></li>
-        </ul>
-      </nav>
-      <div class="header__content">
-        <div class="header__tittle"><p>Fresh Life</p></div>
-        <div class="header__subtittle">
+      <div class="container">
+        <div class="header__logo">
+          <h2 class="header__logo--black">Cahee</h2>
+        </div>
+        <div class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__item--link" href="#">home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__item--link" href="#">about</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__item--link" href="#">services</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__item--link" href="#">gallery</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__item--link" href="#">blog</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__item--link" href="#">contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__tittle"><h2>Fresh Life</h2></div>
+        <div class="header__desc">
           <p>
             Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco.
           </p>
         </div>
-      </div>
-      <div class="header__btn">
-        <button class="button">
-          <a class="button--link" href="#">get free now</a>
+        <button class="header__btn--orange header__btn">
+          <a class="header__btn--link" href="#">GET FREE NOW</a>
         </button>
       </div>
     </header>
 
     <section class="about">
-      <div class="about__image">
-        <img src="./img/about.png" alt="About" />
-      </div>
-      <div class="about__text">
-        <div class="about__text__tittle"><p>About Us</p></div>
-        <div class="about__text__subtittle">
-          <p>
-            Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum. Nim id est laborum. Sed ut perspiciatis unde omnis iste
-            natus error sit voluptatem accusantium doloremque laudantium, totam
-            rem aperiam, eaque ipsa quae ab illo inventore.
-          </p>
+      <div class="box">
+        <div class="about__image">
+          <img src="./assets/img/about.png" width="100%" alt="" />
+        </div>
+        <div class="about__information">
+          <div class="about__tittle tittle"><h2>About Us</h2></div>
+          <div class="about__desc">
+            <p>
+              Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum.<br />
+              <br />
+              Nim id est laborum. Sed ut perspiciatis unde omnis iste natus
+              error sit voluptatem accusantium doloremque laudantium, totam rem
+              aperiam, eaque ipsa quae ab illo inventore.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="services">
-      <div class="menu">
-        <div class="menu__shoping">
-          <div class="menu__shoping__txt">Online Shopping</div>
-          <div class="menu__shoping__img">
-            <span class="icon-1"></span>
+      <div class="services__box">
+        <div class="menu">
+          <div class="menu__shoping menu--width">
+            <p class="menu__item">Online Shoping</p>
+            <span class="icon-1 icon"></span>
+          </div>
+          <div class="menu__product menu--width">
+            <p class="menu__item">Quality Product</p>
+            <span class="icon-2 icon"></span>
+          </div>
+          <div class="menu__delivery menu--width">
+            <p class="menu__item">Domestic & International Delivery</p>
+            <span class="icon-3 icon"></span>
+          </div>
+          <div class="menu__oranized menu--width">
+            <p class="menu__item">Well Organized</p>
+            <span class="icon-4 icon"></span>
           </div>
         </div>
-
-        <div class="menu__product">
-          <div class="menu__product__txt">Quality Product</div>
-          <div class="menu__product__img">
-            <span class="icon-2"></span>
-          </div>
+        <div class="services__img">
+          <img src="./assets/img/services.png" alt="" />
         </div>
-
-        <div class="menu__domestic">
-          <div class="menu__domestic__txt">
-            Domestic & International Delivery
-          </div>
-          <div class="menu__domestic__img">
-            <span class="icon-3"></span>
-          </div>
-        </div>
-
-        <div class="menu__organized">
-          <div class="menu__organized__txt">Well Organized</div>
-          <div class="menu__organized__img">
-            <span class="icon-4"></span>
-          </div>
-        </div>
-      </div>
-      <div class="services__image">
-        <img src="./img/services.png" alt="services" />
-        <p class="services__image--white-txt">Our Services</p>
+        <div class="services__tittle--white tittle">Our Services</div>
       </div>
     </section>
 
     <section class="gallery">
-      <div class="gallery__tittle">
-        <p>Gallery</p>
-      </div>
-      <div class="gallery__subtittle">
-        <p>
-          Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-      </div>
-
-      <div class="gallery__image">
-        <div class="gallery__peach">
-          <img src="./img/gallery1.png" alt="" />
+      <div class="gallery__container">
+        <div class="gallery__tittle">
+          <p>Gallery</p>
         </div>
-        <div class="gallery__currant-blackberry">
-          <div class="gallery__currant">
-            <img src="./img/gallery2.png" alt="" />
+        <div class="gallery__subtittle">
+          <p>
+            Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+          </p>
+        </div>
+        <div class="gallery__image">
+          <div class="gallery__item3">
+            <div class="gallery__peach">
+              <img src="./assets/img/gallery1.png" alt="" />
+            </div>
+            <div class="gallery__currant-blackberry">
+              <div class="gallery__currant">
+                <img src="./assets/img/gallery2.png" alt="" />
+              </div>
+              <div class="gallery__blackberry">
+                <img src="./assets/img/gallery3.png" alt="" />
+              </div>
+            </div>
           </div>
-          <div class="gallery__blackberry">
-            <img src="./img/gallery3.png" alt="" />
+
+          <div class="gallery__garnet-milk">
+            <div class="gallery__milk">
+              <img src="./assets/img/gallery4.png" alt="" />
+            </div>
+            <div class="gallery__garnet">
+              <img src="./assets/img/gallery5.png" alt="" />
+            </div>
           </div>
         </div>
-        <div class="gallery__milk"><img src="./img/gallery4.png" alt="" /></div>
-        <div class="gallery__garnet">
-          <img src="./img/gallery5.png" alt="" />
-        </div>
+        <button class="gallery__btn">
+          <p class="gallery__btn--white">view more</p>
+        </button>
       </div>
-
-      <button class="gallery__btn">
-        <p class="gallery__btn--white">view more</p>
-      </button>
     </section>
 
     <section class="subscribe">
-      <div class="subscribe__tittle">
-        <p>Subscribe To Us</p>
+      <div class="subscribe__box">
+        <div class="subscribe__tittle tittle">Subscribe To Us</div>
+        <div class="subscribe__desc">
+          <p>
+            Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam.
+          </p>
+        </div>
+        <form class="form" method="GET">
+          <input
+            class="form__input"
+            type="email"
+            name="email"
+            placeholder="Your email address..."
+          />
+          <button class="form__btn btn">SUBSCRIBE</button>
+        </form>
       </div>
-      <div class="subscribe__subtittle">
-        Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-      </div>
-      <form class="subscribe__form" method="GET">
-        <label for="email"></label>
-        <input
-          class="subscribe__input"
-          type="email"
-          required
-          name="email"
-          placeholder="Your email address"
-        />
-        <button class="subscribe__btn">
-          <p class="subscribe__btn--white">SUBSCRIBE</p>
-        </button>
-      </form>
     </section>
 
     <section class="blog">
-      <div class="blog__tittle"><p>Blog</p></div>
-      <div class="blog__subtittle">
-        <p>
-          Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit.
-        </p>
+      <div class="blog__container">
+        <div class="blog__tittle"><p>Blog</p></div>
+        <div class="blog__subtittle">
+          <p>
+            Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit.
+          </p>
+        </div>
+        <div class="blog__posts">
+          <div class="blog__posts__last">
+            <div class="blog__post__last--time"><p>20 NOV</p></div>
+            <div class="blog__post__last--white">
+              <p>Green Smoothies: Too Much of a Good Thing?</p>
+            </div>
+            <div class="blog__post__last--ghost">
+              <p>By Auskteez - 2 hours ago</p>
+            </div>
+          </div>
+          <div class="blog__posts__second">
+            <div class="blog__post__second--time"><p>14 NOV</p></div>
+            <div class="blog__post__second--white">
+              <p>Growing Food and a “Thirst” for Innovation</p>
+            </div>
+            <div class="blog__post__second--ghost">
+              <p>By Auskteez - 3 hours ago</p>
+            </div>
+          </div>
+          <div class="blog__posts__first">
+            <div class="blog__post__first--time"><p>10 NOV</p></div>
+            <div class="blog__post__first--white">
+              <p>Pesticides & Food: What You Need to Know</p>
+            </div>
+            <div class="blog__post__first--ghost">
+              <p>By Auskteez - 6 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <button class="blog__btn">
+          <p class="blog__btn--white">view more</p>
+        </button>
       </div>
-      <div class="blog__posts">
-        <div class="blog__posts__last">
-          <div class="blog__post__last--time"><p>20 NOV</p></div>
-          <div class="blog__post__last--white">
-            <p>Green Smoothies: Too Much of a Good Thing?</p>
-          </div>
-          <div class="blog__post__last--ghost">
-            <p>By Auskteez - 2 hours ago</p>
-          </div>
-        </div>
-        <div class="blog__posts__second">
-          <div class="blog__post__second--time"><p>14 NOV</p></div>
-          <div class="blog__post__second--white">
-            <p>Growing Food and a “Thirst” for Innovation</p>
-          </div>
-          <div class="blog__post__second--ghost">
-            <p>By Auskteez - 3 hours ago</p>
-          </div>
-        </div>
-        <div class="blog__posts__first">
-          <div class="blog__post__first--time"><p>10 NOV</p></div>
-          <div class="blog__post__first--white">
-            <p>Pesticides & Food: What You Need to Know</p>
-          </div>
-          <div class="blog__post__first--ghost">
-            <p>By Auskteez - 6 hours ago</p>
-          </div>
-        </div>
-      </div>
-      <button class="blog__btn">
-        <p class="blog__btn--white">view more</p>
-      </button>
     </section>
 
     <section class="contact">
-      <div class="contact__tittle"><p>Contact</p></div>
-      <div class="contact__subtittle">
-        <p>
-          For new projects, ideas, business or anything <br />you'd like to
-          discuss, contact with me!
-        </p>
-      </div>
-      <form class="contact__form" method="GET">
-        <label for="username"></label>
-        <input
-          class="contact__form__input"
-          type="text"
-          name="username"
-          placeholder="Auskteez Tran"
-        />
-        <label for="email"></label>
-        <input
-          class="contact__form__input"
-          type="text"
-          name="email"
-          placeholder="Your email..."
-        />
-        <label for="number"></label>
-        <input
-          class="contact__form__input"
-          type="number"
-          name="number"
-          placeholder="Your phone number..."
-        />
-        <label for="message"></label>
-        <input
-          class="contact__form__input2"
-          type="text"
-          name="message"
-          placeholder="Your message..."
-        />
-        <button class="contact__btn">Send</button>
-      </form>
-      <div class="contact__info">
-        <p class="contact__info--bold">ADDRESS</p>
-        <p class="contact__info--light">123 City name, Street, City, Country</p>
-        <p class="contact__info--bold">EMAIL</p>
-        <p class="contact__info--light">cahee@domain.com</p>
-        <p class="contact__info--bold">PHONE</p>
-        <p class="contact__info--light">+012 345 6789</p>
+      <div class="contact__container">
+        <div class="contact__tittle"><p>Contact</p></div>
+        <div class="contact__subtittle">
+          <p>
+            For new projects, ideas, business or anything <br />you'd like to
+            discuss, contact with me!
+          </p>
+        </div>
+        <form class="contact__form" method="GET">
+          <label for="username"></label>
+          <input
+            class="contact__form__input"
+            type="text"
+            name="username"
+            placeholder="Auskteez Tran"
+          />
+          <label for="email"></label>
+          <input
+            class="contact__form__input"
+            type="text"
+            name="email"
+            placeholder="Your email..."
+          />
+          <label for="number"></label>
+          <input
+            class="contact__form__input"
+            type="number"
+            name="number"
+            placeholder="Your phone number..."
+          />
+          <label for="message"></label>
+          <input
+            class="contact__form__input2"
+            type="text"
+            name="message"
+            placeholder="Your message..."
+          />
+          <button class="contact__btn">Send</button>
+        </form>
+        <div class="contact__info">
+          <p class="contact__info--bold">ADDRESS</p>
+          <p class="contact__info--light">
+            123 City name, Street, City, Country
+          </p>
+          <p class="contact__info--bold">EMAIL</p>
+          <p class="contact__info--light">cahee@domain.com</p>
+          <p class="contact__info--bold">PHONE</p>
+          <p class="contact__info--light">+012 345 6789</p>
+        </div>
       </div>
     </section>
 

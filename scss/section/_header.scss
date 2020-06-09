@@ -126,6 +126,11 @@
     display: inline;
   }
 
+  &__input:focus {
+    color: black;
+    border: 2px solid #5474fd;
+  }
+
   &__input {
     width: 500px;
     height: 60px;

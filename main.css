@@ -655,6 +655,10 @@ h1, h2, h3, h4, h5, h6 {
     display: inline;
   }
 }
+.search__input:focus {
+  color: black;
+  border: 2px solid #5474fd;
+}
 .search__input {
   width: 500px;
   height: 60px;

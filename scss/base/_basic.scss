@@ -1,6 +1,57 @@
 .tittle {
-  font-family: Raleway-Bold;
-  font-size: 90px;
-  font-weight: 700;
-  line-height: 27px;
+  color: #ffffff;
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.desc {
+  color: #e8e8e8;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.btn {
+  background: #365bfd;
+  color: #252b2d;
+  overflow: hidden;
+  z-index: 1;
+  float: left;
+  font-weight: 400;
+  line-height: 45px;
+  margin-right: 2.5em;
+  cursor: pointer;
+  padding: 0 15px;
+  position: relative;
+  text-align: center;
+  width: 225px;
+  height: 60px;
+  opacity: 1;
+  font-family: "Aleo", serif;
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 1000%;
+  background: #5474fb;
+  z-index: -1;
+  transform-origin: -9% 33%;
+  transform: translateX(calc(20% - 25px)) translateY(10%) rotate(45deg);
+  transform: translateY(15%) translateX(20%) rotate(-50deg);
+  transition: transform 0.3s;
+}
+.btn:hover::after {
+  transform: translateY(10%) translateX(-25px) rotate(-45deg);
+}
+
+.btn:hover {
+  transform: scale(1.1);
 }

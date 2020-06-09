@@ -3,273 +3,216 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Cahee</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.ico"
+      type="image/png"
+    />
+
+    <link rel="stylesheet" href="./main.css" />
+    <title>BHROMAON</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <div class="header__logo">
-          <h2 class="header__logo--black">Cahee</h2>
+        <div class="header__tittle">
+          <h1 class="header__tittle--white">Bhromaon</h1>
         </div>
-        <div class="nav">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a class="nav__item--link" href="#">home</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__item--link" href="#">about</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__item--link" href="#">services</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__item--link" href="#">gallery</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__item--link" href="#">blog</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__item--link" href="#">contact</a>
-            </li>
-          </ul>
+        <div class="header__description">
+          <p class="header__description--white">Safe Travel Anywhere</p>
         </div>
-        <div class="header__tittle"><h2>Fresh Life</h2></div>
-        <div class="header__desc">
-          <p>
-            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-          </p>
+        <form class="search" method="GET">
+          <input
+            class="search__input"
+            type="text"
+            name="search"
+            placeholder="Search Your Travel Destination"
+          />
+          <button class="search__btn">
+            <p class="search__btn--white">
+              Search <i class="fas fa-search"></i>
+            </p>
+          </button>
+        </form>
+
+        <div class="header__scroll">
+          <a class="header__scroll--link" href="#1">
+            <p class="header__scroll--white">Scroll Down</p>
+            <span class="header__scroll--span"></span>
+          </a>
         </div>
-        <button class="header__btn--orange header__btn">
-          <a class="header__btn--link" href="#">GET FREE NOW</a>
-        </button>
       </div>
     </header>
 
-    <section class="about">
-      <div class="box">
-        <div class="about__image">
-          <img src="./assets/img/about.png" width="100%" alt="" />
+    <div class="menu">
+      <div class="menu__box">
+        <div class="menu__logo">
+          <p class="menu__logo--white">Bhromaon</p>
         </div>
-        <div class="about__information">
-          <div class="about__tittle tittle"><h2>About Us</h2></div>
-          <div class="about__desc">
-            <p>
-              Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum.<br />
-              <br />
-              Nim id est laborum. Sed ut perspiciatis unde omnis iste natus
-              error sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab illo inventore.
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__item--link" href="#1">Who We Are</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__item--link" href="#2">What We Do</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__item--link" href="#3">Travel With Us</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__item--link" href="#4">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="choose" id="1">
+      <div class="choose__container">
+        <div class="info">
+          <div class="info__tittle">
+            <h2 class="tittle">Why Choose Us</h2>
+            <p class="info__subtittle desc">
+              Tion and dislike men who are so beguiled and demoralized by desire
+              by the charms of pleasure of the moment, so blinded by desire,
+              that they cannot foresee <br />
+              <br />Ddislike men who are so beguiled and demoralized by the
+              charms of pleasure of the moment, so blinded by desire, that.
+            </p>
+            <button class="info__btn btn">
+              <a class="info__btn--link" href="#">Explore Places</a>
+            </button>
+          </div>
+        </div>
+        <div class="places">
+          <div class="places__item1">
+            <img src="./assets/img/choose1.jpg" width="100%" alt="" />
+          </div>
+          <div class="places__item2">
+            <img src="./assets/img/choose2.jpg" width="100%" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it" id="2">
+      <div class="how-it__container how-it__container--bg">
+        <div class="how-it__item">
+          <span class="icon-search"></span>
+          <p class="how-it__desc tittle">Search Places</p>
+        </div>
+        <div class="how-it__item">
+          <span class="icon-select"></span>
+          <p class="how-it__desc tittle">Select Places</p>
+        </div>
+        <div class="how-it__item">
+          <span class="icon-enjoy"></span>
+          <p class="how-it__desc tittle">Book & Enjoy</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="spain" id="3">
+      <div class="spain__container">
+        <div class="box">
+          <div class="box__main-tittle tittle"><p>Spain</p></div>
+          <div class="box__tittle tittle"><p>Grand Spain Madrid</p></div>
+          <div class="box__desc desc">
+            <p class="box__desc--white">
+              But I must explain to you how all this mistaken idea of account to
+              denouncing pleasure and praising pain was account born and I
+              account will give you a complete account of the system
+            </p>
+          </div>
+          <div class="box__btn btn">
+            <a class="box__btn--link" href="#">Book now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="spain-two">
+      <div class="spain__container">
+        <div class="box box-two">
+          <div class="box__main-tittle tittle"><p>Spain</p></div>
+          <div class="box__tittle tittle"><p>Grand Spain Madrid</p></div>
+          <div class="box__desc desc">
+            <p class="box__desc--white">
+              But I must explain to you how all this mistaken idea of account to
+              denouncing pleasure and praising pain was account born and I
+              account will give you a complete account of the system
+            </p>
+          </div>
+          <div class="box__btn btn">
+            <a class="box__btn--link" href="#">Book now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tourist">
+      <div class="tourist__container">
+        <div class="tourist__tittle">
+          <p class="tittle">What Our Tourist Say</p>
+        </div>
+        <div class="tourist__info">
+          <div class="tourist__img">
+            <img
+              class="tourist__img--width"
+              src="./assets/img/section4-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="tourist__quote">
+            <p class="tourist__tittle--white">Sam Sumon</p>
+            <p class="tourist__desc desc">
+              <i class="tourist__desc--qoute fas fa-quote-left"></i> But I must
+              explain to you how all this mistaken idea of account to
+              denouncinpleasure and praising pain But I must explain to you how
+              all this mistaken idea of account to nai denouncing pleasure and
+              praising pain was account born and I account will give you a
+              complete account of the system was account born and I account will
+              give you a nai the complete account of the system
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="services">
-      <div class="services__box">
-        <div class="menu">
-          <div class="menu__shoping menu--width">
-            <p class="menu__item">Online Shoping</p>
-            <span class="icon-1 icon"></span>
-          </div>
-          <div class="menu__product menu--width">
-            <p class="menu__item">Quality Product</p>
-            <span class="icon-2 icon"></span>
-          </div>
-          <div class="menu__delivery menu--width">
-            <p class="menu__item">Domestic & International Delivery</p>
-            <span class="icon-3 icon"></span>
-          </div>
-          <div class="menu__oranized menu--width">
-            <p class="menu__item">Well Organized</p>
-            <span class="icon-4 icon"></span>
-          </div>
+    <footer class="footer" id="4">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <p class="footer__logo--white">Bhromaon</p>
         </div>
-        <div class="services__img">
-          <img src="./assets/img/services.png" alt="" />
+        <div class="footer__desc">
+          <p class="footer__desc--white">Safe Travel Anywhere</p>
         </div>
-        <div class="services__tittle--white tittle">Our Services</div>
-      </div>
-    </section>
-
-    <section class="gallery">
-      <div class="gallery__container">
-        <div class="gallery__tittle">
-          <p>Gallery</p>
+        <div class="footer__icon">
+          <a target="_blank" href="http://facebook.com/"
+            ><i class="footer__icon--item fab fa-facebook-f"></i
+          ></a>
+          <a target="_blank" href="http://twitter.com/">
+            <i class="footer__icon--item fab fa-twitter"></i
+          ></a>
+          <a target="_blank" href="http://linkedin.com/">
+            <i class="footer__icon--item fab fa-linkedin-in"></i
+          ></a>
+          <a target="_blank" href="http://youtube.com/">
+            <i class="footer__icon--item fab fa-youtube"></i
+          ></a>
+          <a target="_blank" href="http://pinterest.com/">
+            <i class="footer__icon--item fab fa-pinterest"></i
+          ></a>
         </div>
-        <div class="gallery__subtittle">
-          <p>
-            Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
-          </p>
-        </div>
-        <div class="gallery__image">
-          <div class="gallery__item3">
-            <div class="gallery__peach">
-              <img src="./assets/img/gallery1.png" alt="" />
-            </div>
-            <div class="gallery__currant-blackberry">
-              <div class="gallery__currant">
-                <img src="./assets/img/gallery2.png" alt="" />
-              </div>
-              <div class="gallery__blackberry">
-                <img src="./assets/img/gallery3.png" alt="" />
-              </div>
-            </div>
-          </div>
-
-          <div class="gallery__garnet-milk">
-            <div class="gallery__milk">
-              <img src="./assets/img/gallery4.png" alt="" />
-            </div>
-            <div class="gallery__garnet">
-              <img src="./assets/img/gallery5.png" alt="" />
-            </div>
-          </div>
-        </div>
-        <button class="gallery__btn">
-          <p class="gallery__btn--white">view more</p>
-        </button>
-      </div>
-    </section>
-
-    <section class="subscribe">
-      <div class="subscribe__box">
-        <div class="subscribe__tittle tittle">Subscribe To Us</div>
-        <div class="subscribe__desc">
-          <p>
-            Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam.
-          </p>
-        </div>
-        <form class="form" method="GET">
-          <input
-            class="form__input"
-            type="email"
-            name="email"
-            placeholder="Your email address..."
-          />
-          <button class="form__btn btn">SUBSCRIBE</button>
-        </form>
-      </div>
-    </section>
-
-    <section class="blog">
-      <div class="blog__container">
-        <div class="blog__tittle"><p>Blog</p></div>
-        <div class="blog__subtittle">
-          <p>
-            Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit.
-          </p>
-        </div>
-        <div class="blog__posts">
-          <div class="blog__posts__last">
-            <div class="blog__post__last--time"><p>20 NOV</p></div>
-            <div class="blog__post__last--white">
-              <p>Green Smoothies: Too Much of a Good Thing?</p>
-            </div>
-            <div class="blog__post__last--ghost">
-              <p>By Auskteez - 2 hours ago</p>
-            </div>
-          </div>
-          <div class="blog__posts__second">
-            <div class="blog__post__second--time"><p>14 NOV</p></div>
-            <div class="blog__post__second--white">
-              <p>Growing Food and a “Thirst” for Innovation</p>
-            </div>
-            <div class="blog__post__second--ghost">
-              <p>By Auskteez - 3 hours ago</p>
-            </div>
-          </div>
-          <div class="blog__posts__first">
-            <div class="blog__post__first--time"><p>10 NOV</p></div>
-            <div class="blog__post__first--white">
-              <p>Pesticides & Food: What You Need to Know</p>
-            </div>
-            <div class="blog__post__first--ghost">
-              <p>By Auskteez - 6 hours ago</p>
-            </div>
-          </div>
-        </div>
-        <button class="blog__btn">
-          <p class="blog__btn--white">view more</p>
-        </button>
-      </div>
-    </section>
-
-    <section class="contact">
-      <div class="contact__container">
-        <div class="contact__tittle"><p>Contact</p></div>
-        <div class="contact__subtittle">
-          <p>
-            For new projects, ideas, business or anything <br />you'd like to
-            discuss, contact with me!
-          </p>
-        </div>
-        <form class="contact__form" method="GET">
-          <label for="username"></label>
-          <input
-            class="contact__form__input"
-            type="text"
-            name="username"
-            placeholder="Auskteez Tran"
-          />
-          <label for="email"></label>
-          <input
-            class="contact__form__input"
-            type="text"
-            name="email"
-            placeholder="Your email..."
-          />
-          <label for="number"></label>
-          <input
-            class="contact__form__input"
-            type="number"
-            name="number"
-            placeholder="Your phone number..."
-          />
-          <label for="message"></label>
-          <input
-            class="contact__form__input2"
-            type="text"
-            name="message"
-            placeholder="Your message..."
-          />
-          <button class="contact__btn">Send</button>
-        </form>
-        <div class="contact__info">
-          <p class="contact__info--bold">ADDRESS</p>
-          <p class="contact__info--light">
-            123 City name, Street, City, Country
-          </p>
-          <p class="contact__info--bold">EMAIL</p>
-          <p class="contact__info--light">cahee@domain.com</p>
-          <p class="contact__info--bold">PHONE</p>
-          <p class="contact__info--light">+012 345 6789</p>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="footer__copyright">
-        <p>© 2015 Company. All right reserved.</p>
-      </div>
-      <div class="footer__logo"><p>Cahee</p></div>
-      <div class="footer__author">
-        <p>
-          Made with <span class="footer__author--red">love</span> by Auskteez
-        </p>
       </div>
     </footer>
   </body>

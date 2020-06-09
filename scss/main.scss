@@ -1,0 +1,16 @@
+// Sass
+@import "sass/variables.scss"; //Sass Variables
+@import "sass/responsive.scss"; // BreakPoints for Responsive
+
+// Base
+@import "base/reset.scss"; //Reset/normalize
+@import "base/typography.scss"; //Font and typography
+@import "base/basic.scss"; // Tittle and Button
+
+// Section
+@import "section/header.scss"; // Header
+@import "section/choose.scss"; // Section 2 Choose
+@import "section/how-it.scss"; // Section in 3 svg
+@import "section/spain.scss"; // spain
+@import "section/tourist.scss"; // prev. section
+@import "section/footer.scss"; // Footer

@@ -1,0 +1,156 @@
+.spain {
+  width: 100%;
+  height: 700px;
+  background-image: url(./assets/img/section3-1.jpg);
+
+  @include mobile {
+    height: 500px;
+  }
+
+  @include tablet {
+    height: 500px;
+  }
+
+  @include laptop {
+    height: 550px;
+  }
+
+  &__container {
+    max-width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    @include laptop {
+      padding: 0 120px;
+    }
+
+    @include tablet {
+      padding: 0 80px;
+    }
+  }
+}
+
+.box {
+  width: 50%;
+  float: left;
+  height: 371px;
+  background-color: #232323;
+  opacity: 0.9;
+  padding: 0 30px;
+  margin-top: 229px;
+
+  @include laptop {
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  @include tablet {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  @include mobile {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  &__main-tittle {
+    font-size: 20px;
+    padding-top: 50px;
+    font-family: "Josefin Sans";
+
+    @include tablet {
+      padding-top: 25px;
+    }
+
+    @include mobile {
+      padding-top: 25px;
+    }
+  }
+
+  &__tittle {
+    font-size: 20px;
+    padding-top: 30px;
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+
+    @include tablet {
+      padding-top: 15px;
+    }
+
+    @include mobile {
+      padding-top: 15px;
+    }
+  }
+
+  &__desc {
+    padding-top: 29px;
+
+    @include tablet {
+      padding-top: 15px;
+    }
+
+    @include mobile {
+      padding-top: 15px;
+    }
+  }
+
+  &__desc--white {
+    letter-spacing: 0;
+    line-height: 26px;
+    font-weight: 300;
+  }
+
+  &__btn {
+    margin-top: 48px;
+    text-align: center;
+    padding-top: 12px;
+
+    @include laptop {
+      margin-top: 30px;
+      width: 100%;
+    }
+
+    @include tablet {
+      margin-top: 30px;
+      width: 100%;
+    }
+
+    @include mobile {
+      margin-top: 15px;
+      width: 100%;
+    }
+  }
+
+  &__btn--link {
+    color: #ffffff;
+    font-family: Aleo;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }
+}
+
+.spain-two {
+  width: 100%;
+  height: 700px;
+  background-image: url(./assets/img/section3-2.jpg);
+
+  @include mobile {
+    height: 500px;
+  }
+
+  @include tablet {
+    height: 500px;
+  }
+
+  @include laptop {
+    height: 550px;
+  }
+}
+
+.box-two {
+  float: right;
+}

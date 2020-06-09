@@ -50,6 +50,7 @@
     background-color: #333333;
     right: 4px;
     border: 15px solid #333333;
+    cursor: pointer;
 
     @include mobile {
       margin-top: 25px;

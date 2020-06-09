@@ -1,10 +1,7 @@
-// Sass
-@import "sass/variables.scss"; //Sass Variables
-@import "sass/responsive.scss"; // BreakPoints for Responsive
-
 // Base
+@import "base/responsive.scss"; // BreakPoints for Responsive
 @import "base/reset.scss"; //Reset/normalize
-@import "base/typography.scss"; //Font and typography
+@import "base/fonts.scss"; //Font and typography
 @import "base/basic.scss"; // Tittle and Button
 
 // Section

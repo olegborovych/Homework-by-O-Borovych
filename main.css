@@ -540,6 +540,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 740px;
   background-image: url(./assets/img/head.jpg);
+  font-family: "Josefin Sans", sans-serif;
 }
 @media (max-width: 479px) {
   .header {
@@ -552,7 +553,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .header__tittle {
-  padding-top: 265px;
+  padding-top: 270px;
 }
 @media (max-width: 479px) {
   .header__tittle {
@@ -566,7 +567,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header__tittle--white {
   color: #ffffff;
-  font-family: "Josefin Sans", sans-serif;
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
@@ -578,11 +578,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .header__description {
-  padding-top: 15px;
+  padding-top: 0px;
 }
 .header__description--white {
   color: #ffffff;
-  font-family: "Josefin Sans", sans-serif;
   font-size: 22px;
   font-weight: 400;
   letter-spacing: 6px;
@@ -631,7 +630,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header__scroll--white {
   color: #ffffff;
-  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
@@ -664,7 +662,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 60px;
   padding-left: 126px;
   color: #999999;
-  font-family: "Josefin Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 26px;
@@ -708,7 +705,7 @@ h1, h2, h3, h4, h5, h6 {
 .search__btn:hover {
   transform: scale(1.07);
   border: 2px solid #5474fd;
-  background-color: #365bfd;
+  background-color: #5474fd;
 }
 .search__btn--white {
   font-family: "Aleo", serif;
@@ -996,6 +993,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #333333;
   right: 4px;
   border: 15px solid #333333;
+  cursor: pointer;
 }
 @media (max-width: 479px) {
   .how-it__item {
@@ -1144,7 +1142,7 @@ h1, h2, h3, h4, h5, h6 {
 .box__btn {
   margin-top: 48px;
   text-align: center;
-  padding-top: 12px;
+  padding-top: 9px;
 }
 @media (min-width: 768px) and (max-width: 1079px) {
   .box__btn {
@@ -1205,7 +1203,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 479px) {
   .tourist {
-    height: 670px;
+    height: 580px;
   }
 }
 .tourist__container {
@@ -1281,6 +1279,7 @@ h1, h2, h3, h4, h5, h6 {
   .tourist__quote {
     width: 100%;
     height: auto;
+    padding: 0 15px;
   }
 }
 .tourist__tittle--white {

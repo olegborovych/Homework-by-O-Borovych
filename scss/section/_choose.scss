@@ -66,6 +66,12 @@
   &__btn {
     margin-top: 48px;
 
+    @include laptop {
+      margin-top: 20px;
+      width: 80%;
+      margin-left: 10%;
+    }
+
     @include tablet {
       margin-top: 20px;
       width: 80%;

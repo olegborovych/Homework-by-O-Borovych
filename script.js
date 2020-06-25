@@ -1,155 +1,57 @@
-'use strict'
+// ----------------------------------1
 
-// -------------------------------1----------------------------
-
-// let a = Number(prompt("Введи початок діапазону", ""));
-// let n = Number(prompt("Введи кінець діапазону", ""));
-// let sum = 0;
-
-// while (a <= n) {
-//     sum += a;
-//     a++;
+// function num(a, b) {
+//     return (a < b ? -1 : a > b ? 1 : 0);
 // }
-// console.log(sum)
+// console.log(num(7, 9));
 
-// -------------------------------2----------------------------
+// ----------------------------------2
 
-// let a = prompt('Введіть перше число')
-// let b = prompt('Введіть друге число')
-// let sum = a % b;
-
-// while (sum != 0) {
-//     a = m;
-//     sum = a % b;
-//     console.log(sum)
-// }
-
-// -------------------------------3----------------------------
-
-// let number = prompt('Введіть число');
-// for (let i = 1; i <= number; i++) {
-//     if (number % i == 0 && number == !number && number == !1) {
-//         console.log(i)
+// function res(number) {
+//     let factorial = 1;
+//     for (let i = 1; i <= number; i++) {
+//         factorial *= i;
 //     }
+//     return factorial;
+// }
+// console.log(res(5)); //120
+
+// ----------------------------------3
+
+
+// function num(a, b, c) {
+//     return +(String(a) + String(b) + String(c));
+// }
+// console.log(num(1, 2, 3));
+
+// ----------------------------------4
+
+// function cord(length, width = length) {
+//     return length * width;
 // }
 
-// -------------------------------4----------------------------
+// console.log(cord(5));
+// console.log(cord(5, 6));
 
-// let a = prompt('Введіть число, а я порахую кількість цифр')
-// console.log((a).length)
+// 5 i 6 не знаю як зробити
 
-// -------------------------------5----------------------------
+// ----------------------------------7
 
-// let a = prompt('Введіть 10-значне число');
-// alert((parseInt(a) % 2 == 0) ? 'парне' : 'не парне');
-
-// -------------------------------6----------------------------
-
-// let res;
-
-// do {
-//     let a = +prompt("ВВедіть перше число");
-//     let operator = prompt("Вкажіть дію [+ - * /]");
-//     let b = +prompt("Введіть друге число");
-
-//     switch (operator) {
-//         case "+":
-//             alert(`${a}+${b}=${a + b}`);
-//             break;
-//         case "*":
-//             alert(`${a}*${b}=${a * b}`);
-//             break;
-//         case "/":
-//             alert(`${a}/${b}=${a / b}`);
-//             break;
-//         case "-":
-//             alert(`${a}-${b}=${a - b}`);
-//             break;
-//         default: alert("нема такого символа");
-//     }
-
-//     res = confirm("Ще раз?")
-
-// } while (res);
-
-
-// -------------------------------7----------------------------
-
-// const num = prompt("Введіть число");
-// const num2 = +prompt("Введіть на скільки посунути число");
-// console.log(`${num.substring(num2, num.length) + num.substring(0, num2)}`)
-
-// -------------------------------8----------------------------
-
-// let dateDay = +prompt(`Введіть дату: число місяця`);
-// let dateMonth = +prompt(`Введіть дату: місяць`);
-// let dateYear = +prompt(`Введіть дату: рік`);
-
-// if (dateDay <= 30) {
-//     dateDay++;
-//   } else if (dateDay === 31) {
-//     dateDay = 01;
-//     dateMonth++;
-//   } else {
-//     Alert(`не вірні дані`);
+// function time(hour, minute, second) {
+//     console.log(`${hour}:${minute}:${second}`);
 // }
+// time(15, 47, 12);
 
-// if (dateMonth >= 13) {
-//     dateMonth -= 12;
-//     dateYear++;
+// ----------------------------------8
+
+// function time(hour, minute, second) {
+//     return hour * 3600 + minute * 60 + second;
 // }
+// console.log(time(15, 48, 10));
 
-// else if (
-//     (dateMonth === 4 || dateMonth === 6 || dateMonth === 9 || dateMonth === 11) && dateDay >= 31 )
-//   {
-//     dateDay = 01;
-//     dateMonth++;
-//   }
-//   alert(`Завтра ${dateDay}.${dateMonth}.${dateYear}`);
-// }
+// ----------------------------------9
 
-// -------------------------------9----------------------------
 
-// let table = [];
 
-// for (let i = 2; i <= 9; i++) {
-//     let valueFromTable = [];
-//     for (j = 1; j <= 10; j++) {
-//         valueFromTable[j - 1] = `${i}*${j}=${i * j}`;
-//     }
-//     table[i - 2] = table;
-// }
+// ---------------------------------10 
 
-// for (i = 0; i < table.length; i++) {
-//     console.log(table[i]);
-// }
-
-// -------------------------------10---------------------------
-
-// const number = +prompt("Введи число від 0 дo 100");
-// let range = [0, 100];
-// let n = true;
-
-// do {
-//     let assumption = Math.floor((range[0] + range[1]) / 2);
-//     let symbol = prompt(`Твоє число ==${assumption}, <${assumption}, >${assumption}\nEnter symbol`);
-
-//     switch (symbol) {
-//         case "==":
-//             n = false;
-//             alert(`Твоє число is ${assumption}`);
-//             break;
-
-//         case "<":
-//             range[1] = assumption - 1;
-//             break;
-
-//         case ">":
-//             range[0] = assumption + 1;
-//             break;
-
-//         default:
-//             alert("Undefined symbol");
-//             n = false;
-//     }
-// } while (n);

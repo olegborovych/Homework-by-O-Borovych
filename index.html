@@ -4,11 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS5</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>jQuery</title>
 </head>
 
 <body>
-    <script src="script.js"></script>
+    <section class="section">
+        <div class="container">
+            <div class="header">
+                <ul class="header__nav tabs">
+                    <li data-toggle="tab" data-tabs=".gtabs.demo" data-tab=".tab-1" class="header__item header__text">
+                        <a href="#tab1">INFORMATION</a></li>
+                    <li data-toggle="tab" data-tabs=".gtabs.demo" data-tab=".tab-2" class="header__item header__text">
+                        <a href="#">RATINGS INFO</a></li>
+                    <li data-toggle="tab" data-tabs=".gtabs.demo" data-tab=".tab-3" class="header__item header__text">
+                        <a href="#tab3">WHERE TO BUY</a></li>
+                </ul>
+            </div>
+            <div class="gtabs demo">
+                <div class="body gtab active tab-1" id="tab1">
+                    <div class="body__game">
+                        <img src="/assets/img/game.png" alt="">
+                        <div class="body__rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </div>
+
+                    <div class="info">
+                        <div class="info__tittle">
+                            <h2>FarCry 4</h2>
+                            <div class="info__score"><img src="/assets/img/score.png" alt=""></div>
+                        </div>
+                        <div class="info__subtittle">First Released Nov 17, 2014</div>
+                        <div class="info__desc">In Far Cry 4, players find themselves in Kyrat, a breathtaking, perilous
+                            and
+                            wild region of the Hima
+                            layas struggling under the regime of a despotic self-appointed king.</div>
+
+                        <div class="info__price">
+                            <p class="info__price--yellow">20% OFF!</p>
+                            <p class="info__price--big">$59.96</p>
+                        </div>
+                        <button class="info__btn"><a class="info__btn--link" href="#">BUY IT NOW</a></button>
+                    </div>
+                </div>
+                <div class="gtab tab-2" id="tab2">
+                    <div class="info__desc">In Far Cry 4, players find themselves in Kyrat, a breathtaking, perilous
+                        and
+                        wild region of the Hima
+                        layas struggling under the regime of a despotic self-appointed king.</div>
+                </div>
+                <div class="gtab tab-3" id="tab3">
+                    <div class="info__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta deserunt
+                        impedit nemo amet excepturi temporibus fuga aliquam commodi magni ullam?</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

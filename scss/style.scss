@@ -1,0 +1,9 @@
+// Base
+@import "base/responsive.scss"; // BreakPoints for Responsive
+@import "base/reset.scss"; //Reset/normalize
+@import "base/fonts.scss"; //Font and typography
+@import "base/basic.scss"; // Tittle and Button
+
+// Section
+@import "section/header.scss"; // Header
+@import "section/footer.scss"; // Footer

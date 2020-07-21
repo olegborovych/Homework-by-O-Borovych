@@ -68,6 +68,9 @@ body {
             color: white;
             position: relative;
             margin-left: 20px;
+            &:hover {
+                border: 2px solid white;
+            }
         }
     }
 
@@ -106,7 +109,7 @@ body {
     
 
     &__item {
-        margin-left: 68px;
+        margin-left: 63px;
         @include laptop {
             margin-left: 20px;   
         }
@@ -117,15 +120,17 @@ body {
             font-size: 14px;
             font-weight: 400;
             text-transform: uppercase;
-            &:hover {
-                font-size: 15px;
-            }
         }
+
         &--circle {
             padding-right: 14px;
             font-size: 9px;
             position: relative;
             bottom: 1px;
+            &:hover {
+                background-image: url(assets/img/header/dots1.svg);
+                background-repeat: no-repeat;
+            }
             @include laptop {
                 display: none; 
             }
@@ -134,7 +139,7 @@ body {
 }
 
 .header__tittle {
-    padding-top: 280px;
+    padding-top: 250px;
     text-align: center;
     @include tablet {
             padding-top: 150px;
@@ -150,7 +155,6 @@ body {
         font-size: 80px;
         font-weight: 700;
         text-transform: uppercase;
-        /* Text style for "Simple & m" */
         letter-spacing: 4px;
 
         @include tablet {
@@ -165,7 +169,7 @@ body {
 
 .header__desc {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 35px;
 
     &--sub {
         color: #ffffff;
@@ -174,7 +178,6 @@ body {
         font-weight: 400;
         line-height: 22px;
         text-transform: uppercase;
-        /* Text style for "We make th" */
         letter-spacing: 5.4px;
     }
 }

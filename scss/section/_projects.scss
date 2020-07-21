@@ -36,7 +36,7 @@
     }
 
     &__tittle {
-        padding-top: 140px;
+        padding-top: 110px;
         @include laptop {
             padding-top: 90px;
          }
@@ -56,7 +56,7 @@
 }
 
 .project1 {
-    padding-top: 180px;
+    padding-top: 168px;
     display: flex;
     @include laptop {
         padding-top: 80px;
@@ -125,7 +125,7 @@
     &__info {
         float: right;
         padding-left: 69px;
-        padding-top: 59px;
+        padding-top: 50px;
         @include laptop {
             padding-top: 20px;
          }
@@ -154,7 +154,7 @@
     }
 
     &__desc {
-        padding-top: 39px;
+        padding-top: 23px;
         @include laptop {
             padding-top: 20px;
             font-size: 14px;
@@ -164,7 +164,7 @@
     }
 
     &__btn {
-        margin-top: 36px;
+        margin-top: 32px;
         @include laptop {
             margin-top: 20px;
          }
@@ -180,7 +180,7 @@
     }
 
     &__position {
-        padding-top: 40px;
+        padding-top: 42px;
         @include laptop {
             padding-top: 20px;
          }
@@ -210,7 +210,7 @@
         height: 470px;
         background-color: #55b7ff;
         position: absolute;
-        margin-left: -352px;
+        margin-left: -375px;
         margin-top: -70px;
         @include laptop {
             display: none;
@@ -313,7 +313,7 @@
     &__info {
         float: left;
         padding-right: 69px;
-        padding-top: 59px;
+        padding-top: 46px;
         @include laptop {
             padding-top: 20px;
          }
@@ -344,7 +344,7 @@
     }
 
     &__desc {
-        padding-top: 39px;
+        padding-top: 25px;
         @include laptop {
             padding-top: 20px;
          }
@@ -361,7 +361,7 @@
     }
 
     &__btn {
-        margin-top: 36px;
+        margin-top: 32px;
         @include laptop {
             margin-top: 20px;
          }
@@ -378,7 +378,7 @@
     }
 
     &__position {
-        padding-top: 60px;
+        padding-top: 55px;
         @include laptop {
             padding-top: 20px;
          }

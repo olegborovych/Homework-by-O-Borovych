@@ -4,7 +4,7 @@
     background-image: url(assets/img/news/news__bg.svg), linear-gradient(45deg, #3c7fd4 0%, #24ccfa 100%);
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+
     &__border {
         display: block;
         position: relative;
@@ -335,25 +335,31 @@
 }
 
 .owl-dots {
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: -9px;
+    margin-left: 35px;
     @include mobile {
         margin-left: 5px;
     }
 }
 
 .owl-dot {
-    margin-right: 30px;
+    margin-right: 25px;
 }
 
 .owl-prev {
     position: relative;
-    right: 55%;
-    bottom: 290px;
+    right: 54%;
+    bottom: 295px;
+    @include mobile {
+        display: none;
+    }
 }
 
 .owl-next {
     position: relative;
-    left: 55%;
-    bottom: 290px;
+    left: 54%;
+    bottom: 295px;
+    @include mobile {
+        display: none;
+    }
 }

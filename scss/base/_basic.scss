@@ -1,0 +1,40 @@
+.tittle {
+    color: #2c4058;
+    font-family: 'gothambold1' , sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.desc {
+    color: #4b5562;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.btn {
+    width: 190px;
+    height: 50px;
+    border: 1px solid #2c4058;
+    color: #2c4058;
+    font-family: 'GothamBook' , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-transform: uppercase;
+    background-color: white;
+    &:hover {
+        border: 4px solid #2c4058;
+    }
+}
+
+.social_ico {
+    margin-left: 33%;
+    margin-top: 28%;
+}
+
+A {
+    color: white; /* Цвет ссылок */
+}

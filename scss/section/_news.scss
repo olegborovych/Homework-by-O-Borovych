@@ -1,0 +1,359 @@
+.news {
+    width: 100%;
+    height: 1035px;
+    background-image: url(assets/img/news/news__bg.svg), linear-gradient(45deg, #3c7fd4 0%, #24ccfa 100%);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__border {
+        display: block;
+        position: relative;
+        width: 100px;
+        border-top: 1px solid white;
+        left: 46%;
+        top: 147px;
+        @include tablet {
+            display: none;
+        }
+
+        @include mobile {
+            display: none;
+            height: 700px;
+        }
+    }
+}
+
+.container__news {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 1035px;
+    @include laptop {
+        padding: 0 15px;
+    }
+
+    @include tablet {
+        padding: 0 15px;
+    }
+
+    @include mobile {
+        padding: 0 15px;
+    }
+}
+
+.news__tittle {
+    padding-top: 181px;
+    @include mobile {
+        font-size: 18px;
+        padding-top: 50px;
+    }
+   
+    
+    &--white {
+        color: white;
+        text-align: center;
+    }
+}
+
+.owl-carousel {
+    display: flex;
+}
+
+.item1 {
+    width: 370px;
+    height: 514px;
+    background-color: white;
+    margin-top: 100px;
+    cursor: pointer;
+    @include laptop {
+        width: 300px;
+    }
+
+    @include tablet {
+        width: 250px;
+    }
+
+    @include mobile {
+        margin-top: 50px;
+    }
+    
+
+    &__img {
+        @include laptop {
+            width: 300px;
+        }
+
+        @include tablet {
+            width: 250px;
+        }
+
+    }
+
+    &__tittle {
+        color: #2c4058;
+        font-family: 'gothambold1' , sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 34px;
+        text-transform: uppercase;
+        margin: 20px 20px;
+        @include laptop {
+            font-size: 18px;
+        }
+
+        @include tablet {
+            font-size: 18px;
+            margin: 10px 10px;
+        }
+
+
+    }
+
+    &__desc {
+        color: #4b5562;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 0 20px;
+        @include laptop {
+            font-size: 14px;
+        }
+
+        @include tablet {
+            font-size: 14px;
+            margin: 0 10px;
+        }
+    }
+
+    &__author {
+        margin: 0 20px;
+        margin-top: 30px;
+        display: flex;
+
+    &__info {
+        display: flex;
+    }
+
+        &--name {
+            color: #2c4058;
+            font-family: 'GothamBook' , sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            text-transform: uppercase;
+            margin: 0 20px;
+        }
+
+        &--date {
+            margin-top: 7px;
+            color: #55b7ff;
+            font-family: 'GothamBook' , sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            margin: 0 20px;
+        }
+    }
+}
+
+.item2 {
+    width: 370px;
+    height: 514px;
+    background-color: white;
+    margin-top: 100px;
+    cursor: pointer;
+    @include laptop {
+        width: 300px;
+    }
+    
+    @include tablet {
+        width: 250px;
+    }
+
+    &__img {
+        @include laptop {
+            width: 300px;
+        }
+
+        @include tablet {
+            width: 250px;
+        }
+    }
+
+    &__tittle {
+        color: #2c4058;
+        font-family: 'gothambold1' , sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 34px;
+        text-transform: uppercase;
+        margin: 20px 20px;
+        @include laptop {
+            font-size: 18px;
+        }
+
+        @include tablet {
+            font-size: 18px;
+        }
+    }
+
+    &__desc {
+        color: #4b5562;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 0 20px;
+        @include laptop {
+            font-size: 14px;
+        }
+
+        @include tablet {
+            font-size: 14px;
+        }
+    }
+
+    &__author {
+        margin: 0 20px;
+        margin-top: 30px;
+        display: flex;
+
+    &__info {
+        display: flex;
+    }
+
+        &--name {
+            color: #2c4058;
+            font-family: 'GothamBook' , sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            text-transform: uppercase;
+            margin: 0 20px;
+        }
+
+        &--date {
+            margin-top: 7px;
+            color: #55b7ff;
+            font-family: 'GothamBook' , sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            margin: 0 20px;
+        }
+    }
+}
+
+.item3 {
+    width: 370px;
+    height: 514px;
+    background-color: white;
+    margin-top: 100px;
+    cursor: pointer;
+    @include laptop {
+        width: 300px;
+    }
+
+    @include tablet {
+        width: 250px;
+    }
+
+    &__img {
+        @include laptop {
+            width: 300px;
+        }
+
+        @include tablet {
+            width: 250px;
+        }
+    }
+    
+
+
+    &__tittle {
+        color: #2c4058;
+        font-family: 'gothambold1' , sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 34px;
+        text-transform: uppercase;
+        margin: 20px 20px;
+        @include laptop {
+            font-size: 18px;
+        }
+
+        @include tablet {
+            font-size: 18px;
+        }
+    }
+
+    &__desc {
+        color: #4b5562;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        margin: 0 20px;
+        @include laptop {
+            font-size: 14px;
+        }
+
+        @include tablet {
+            font-size: 14px;
+        }
+    }
+
+    &__author {
+        margin: 0 20px;
+        margin-top: 30px;
+        display: flex;
+
+    &__info {
+        display: flex;
+    }
+
+        &--name {
+            color: #2c4058;
+            font-family: 'GothamBook' , sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            text-transform: uppercase;
+            margin: 0 20px;
+        }
+
+        &--date {
+            margin-top: 7px;
+            color: #55b7ff;
+            font-family: 'GothamBook' , sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            margin: 0 20px;
+        }
+    }
+}
+
+.owl-dots {
+    margin-top: 20px;
+    margin-left: 25px;
+    @include mobile {
+        margin-left: 5px;
+    }
+}
+
+.owl-dot {
+    margin-right: 30px;
+}
+
+.owl-prev {
+    position: relative;
+    right: 55%;
+    bottom: 290px;
+}
+
+.owl-next {
+    position: relative;
+    left: 55%;
+    bottom: 290px;
+}

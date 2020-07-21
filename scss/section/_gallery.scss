@@ -1,0 +1,171 @@
+.container__gallery {
+    max-width: 1185px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 1000px;
+
+    @include laptop {
+        padding: 0 15px;
+    }
+
+    @include tablet {
+        padding: 0 15px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    @include mobile {
+        padding: 0 15px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+}
+
+.gallery {
+    
+    &__border {
+        display: block;
+        position: relative;
+        width: 100px;
+        border-top: 1px solid #2c4058;
+        left: 46%;
+        top: 147px;
+        @include tablet {
+            display: none;
+        }
+
+        @include mobile {
+            display: none;
+        }
+    }
+
+    &__tittle {
+        text-align: center;
+        padding-top: 181px;
+        @include laptop {
+            padding-top: 150px;
+        }
+
+        @include tablet {
+            padding-top: 50px;
+        }
+
+        @include mobile {
+            padding-top: 50px;
+        }
+    }
+
+    &__items--img {
+        @include tablet {
+            width: 62%;
+        }
+
+        @include mobile {
+            width: 280px;
+        }
+    }
+    
+    &__items:hover {
+        transform: scale(1.02);
+        cursor: pointer;
+    }
+
+    &__items2{
+        margin-left: 10px;
+        @include laptop {
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+
+        @include tablet {
+            margin-left: 0px;
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        @include mobile {
+            margin-left: 0px;
+            margin-top: 10px;
+            width: 100%;
+        }
+    }
+
+    &__items3{
+        margin-left: 10px;
+        @include laptop {
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+
+        @include tablet {
+            margin-left: 0px;
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        @include mobile {
+            margin-left: 0px;
+            margin-top: 10px;
+            width: 100%;
+        }
+    }
+
+    &__btn {
+        margin-top: 60px;
+        margin-left: 43%;
+        @include tablet {
+            width: 100%;
+            margin-left: 0%;
+        }
+
+        @include mobile {
+            width: 100%;
+            margin-left: 0%;
+        }
+    }
+}
+
+.items {
+    display: flex;
+    padding-top: 100px;
+    @include laptop {
+        display: block;
+        text-align: center;
+    }
+
+    @include tablet {
+        display: block;
+        text-align: center;
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    @include mobile {
+        display: block;
+        text-align: center;
+        padding-top: 50px;
+        width: 100%;
+    }
+}
+
+.gellery__items--marg {
+    margin-top: 10px;
+    @include laptop {
+        margin-top: 0px;
+    }
+
+    @include tablet {
+        margin-top: 10px;
+    }
+
+    @include mobile {
+        margin-top: 10px;
+    }
+}
+
+.g-hover {
+    &:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+    }
+}

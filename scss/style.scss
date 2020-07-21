@@ -1,10 +1,16 @@
 // Base
 @import "base/responsive.scss"; // BreakPoints for Responsive
-@import "base/reset.scss"; //Reset/normalize
-@import "base/fonts.scss"; //Font and typography
+@import "base/reset.scss"; // Resetor
+@import "base/fonts.scss"; // Font + iconFont
 @import "base/basic.scss"; // Tittle and Button
 @import "base/mixin.scss"; // Mixins
+@import "base/slick.scss"; // slider
+@import "base/slick-theme.scss"; // slider
 
 // Section
 @import "section/header.scss"; // Header
+@import "section/projects.scss"; // Section projects 
+@import "section/news.scss"; // Section news
+@import "section/gallery.scss"; // Section gallery
+@import "section/contact.scss"; // Section contact
 @import "section/footer.scss"; // Footer

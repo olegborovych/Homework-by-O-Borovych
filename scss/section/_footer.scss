@@ -1,0 +1,62 @@
+.container__footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 525px;
+
+    @include laptop {
+        max-width: 700px;
+    }
+
+}
+
+.footer {
+    width: 100%;
+    height: 525px;
+    background-image: url(assets/img/footer/bg.svg), linear-gradient(45deg, #55b7ff 0%, #7e5aff 100%);
+    @include mobile {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    &__logo {
+        float: left;
+        @include mobile {
+            text-align: center;
+            float: none;
+            margin-top: 100px;
+        }
+    }
+
+    &__info {
+        padding-top: 204px;
+        @include mobile {
+            padding-top: 200px;
+        }
+    }
+
+    &__social {
+        padding-top: 0px;
+        float: right;
+        @include mobile {
+            display: none;
+        }
+    }
+
+    &__copyright {
+        color: #ffffff;
+        font-family: 'GothamBook' , sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        width: 100%;
+        float: left;
+        padding-top: 42px;
+
+        @include mobile {
+            float: none;
+            text-align: center;
+        }
+    }
+
+}  

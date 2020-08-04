@@ -1,0 +1,36 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.btn {
+  margin-left: 46%;
+}
+
+.page {
+  margin-top: 0;
+  transition: ease-in 2s all;
+  max-width: 250px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+  
+.page__itme:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+  
+.desc {
+  display: block;
+  padding: 10px 10px 10px 10px;
+  font-size: 18px;
+}
+  
+.pagination {
+  white-space: nowrap;
+  overflow: auto;
+}
+  
+.pagination__item {
+  width: 40px;
+}
